@@ -88,9 +88,8 @@ public class ChatbotControllerTest {
 		System.out.println("path: "+path.toAbsolutePath()); 
 		
 		//서버 저장 경로 설정
-		String savePath = "tmp/tomcat.8080.***/work/Tomcat/localhost/ROOT/" + "\\";		
+		String savePath = "/usr/upload/";		
 		//서버저장파일명(클라이언트원본파일명).확장자		
-		// 중복파일처리1 : 
 		String ext1 = filename1.substring(filename1.lastIndexOf("."));				
 		System.out.println("확장자: "+ext1);
 		filename1 = getUuid() + "("+ multipartfile1.getOriginalFilename() + ")" + ext1;
