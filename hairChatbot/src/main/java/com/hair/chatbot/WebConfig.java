@@ -15,6 +15,9 @@ public class WebConfig implements WebMvcConfigurer {
 				.addResourceLocations("file:///c:/upload/"); //실제경로
 		registry.addResourceHandler("/faceimages/**")//url 설정
 		.addResourceLocations("file:///C:/Users/parksoyeon/Desktop/images/");
+		registry.addResourceHandler("/file/**")
+        .addResourceLocations("file:///tmp/tomcat.8080.***/work/Tomcat/localhost/ROOT/"); 
+		//리눅스 root에서 시작하는 폴더 경로
 	}
 
 	

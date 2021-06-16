@@ -154,7 +154,7 @@ function uploadImage(){
 	        contentType: false,
 	        success: function (data) {
 	        	var str="";
-	        	str="<img src='/upload/"+data+"'style='border-radius : 20px 20px 0px 20px;width:150px; height:auto;' >";
+	        	str="<img src='/file/"+data+"'style='border-radius : 20px 20px 0px 20px;width:150px; height:auto;' >";
 	        	$(".chatbox__messages").append("<div class= 'messages__item messages__item--image'>"+str+"</div>"); 
 	        	
 	        	//cfr 결과값
