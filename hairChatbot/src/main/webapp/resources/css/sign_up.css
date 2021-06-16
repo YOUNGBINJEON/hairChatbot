@@ -1,0 +1,140 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.sign_up {
+  width: 580px;
+  height: 600px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: #e849eb;
+  font-size: 1.8em;
+}
+
+.register_name {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.register_name input { 
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  
+}
+.register_name input:focus{
+  border-color: #e849eb; 
+}
+
+.register_id {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.register_id input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.register_id input:focus{
+  border-color: #e849eb; 
+}
+
+.register_pw {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.register_pw input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.register_pw input:focus{
+  border-color: #e849eb; 
+  
+}
+
+
+.submit {
+  margin-top: 20px;
+  width: 80%;
+
+}
+
+.submit_btn {
+  border: 0;
+  border-radius: 40px;
+  display: block;
+  margin: 15px auto;
+  padding: 16px 45px;
+  width: 70%;
+  background: linear-gradient(135deg, #e849eb 0%,#558ded 100%);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: roboto, helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.3s ease; 
+}
+.submit_btn:hover{
+  background: linear-gradient(135deg, #558ded 0%,#e849eb 100%);
+  
+}
