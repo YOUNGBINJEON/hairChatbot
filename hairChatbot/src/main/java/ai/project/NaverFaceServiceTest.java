@@ -25,7 +25,10 @@ public class NaverFaceServiceTest implements NaverService{
 
         try { //<form method = post endtype = "multipart/form-data <input type = file name = "image"
             String paramName = "image"; // 파라미터명은 image로 지정
-            String imgFile = "/usr/upload/"+image;
+            //로컬 저장 경로
+            //String imgFile = "C:/upload/"+image;
+            //tomcat 서버 저장 경로
+			String imgFile = "/usr/upload/"+image;
             File uploadFile = new File(imgFile);
             String apiURL = "https://naveropenapi.apigw.ntruss.com/vision/v1/celebrity"; // 유명인 얼굴 인식
             URL url = new URL(apiURL);

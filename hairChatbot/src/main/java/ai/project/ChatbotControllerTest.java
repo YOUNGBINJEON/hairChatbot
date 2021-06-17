@@ -87,8 +87,10 @@ public class ChatbotControllerTest {
 		Path path = Paths.get(filename1);
 		System.out.println("path: "+path.toAbsolutePath()); 
 		
+		//로컬 저장 경로
+		//String savePath = "c:/upload/";		
 		//서버 저장 경로 설정
-		String savePath = "/usr/upload/";		
+		String savePath = "/usr/upload/"; 
 		//서버저장파일명(클라이언트원본파일명).확장자		
 		String ext1 = filename1.substring(filename1.lastIndexOf("."));				
 		System.out.println("확장자: "+ext1);

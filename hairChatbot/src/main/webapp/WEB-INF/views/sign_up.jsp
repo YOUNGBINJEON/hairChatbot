@@ -30,7 +30,7 @@ $(document).ready(function(){
 			</div>
 	       	<div class="register_id">
 	        	<h4>E-mail</h4>
-				<input type="text" name="userID" placeholder="Email">
+				<input type="email" name="userID" placeholder="Email">
 	      	</div>
 	        <div class="register_pw">
 	          	<h4>Password</h4>
@@ -38,7 +38,7 @@ $(document).ready(function(){
 			</div>
 	            
 			<div class="submit">
-	           	<input type="submit" value="submit" class = "submit_btn">
+	           	<input type="submit" value="sign up" class = "submit_btn">
 	       	</div>
 	       	
         </div>

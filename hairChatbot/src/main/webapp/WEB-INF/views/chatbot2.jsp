@@ -154,6 +154,9 @@ function uploadImage(){
 	        contentType: false,
 	        success: function (data) {
 	        	var str="";
+	        	//로컬
+	        	//str="<img src='/upload/"+data+"'style='border-radius : 20px 20px 0px 20px;width:150px; height:auto;' >";
+	        	//tomcat 서버
 	        	str="<img src='/file/"+data+"'style='border-radius : 20px 20px 0px 20px;width:150px; height:auto;' >";
 	        	$(".chatbox__messages").append("<div class= 'messages__item messages__item--image'>"+str+"</div>"); 
 	        	
